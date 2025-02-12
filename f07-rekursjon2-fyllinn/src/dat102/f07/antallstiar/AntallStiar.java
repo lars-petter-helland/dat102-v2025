@@ -16,7 +16,6 @@ public class AntallStiar {
 	}
 	
 	static int antallStiar(int startX, int startY, int sluttX, int sluttY) {
-		//TODO
 		return 0;
 	}
 

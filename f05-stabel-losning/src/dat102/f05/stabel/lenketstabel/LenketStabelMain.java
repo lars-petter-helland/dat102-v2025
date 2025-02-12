@@ -12,14 +12,14 @@ import dat102.f05.stabel.StabelADT;
 public class LenketStabelMain {
 	
 	public static void main(String[] args) {
-		testStackOperations();
+		testStackOperations();//tester metoden StackOperations
 		System.out.println("\n\nDone.");
 	} // end main
 
 	public static void testStackOperations() {
-		System.out.println("Create a stack: ");
-		StabelADT<String> myStack = new LenketStabel<>();
-		System.out.println("isEmpty() returns " + myStack.isEmpty());
+		System.out.println("Create a stack: ");//spørr etter å lage en bunke?
+		StabelADT<String> myStack = new LenketStabel<>();//kaller den nye bunken for mystack og bruker interfacet til StabeADT
+		System.out.println("isEmpty() returns " + myStack.isEmpty());//bruker metoden isEmty
 
 		System.out.println("\nAdd to stack to get\n" + "Joe Jane Jill Jess Jim");
 		myStack.push("Jim");
@@ -53,10 +53,10 @@ public class LenketStabelMain {
 		System.out.println("The stack should be empty: ");
 		System.out.println("\nisEmpty() returns " + myStack.isEmpty());
 
-		System.out.println("\n myStack.peek() returns ");
-		System.out.println(myStack.peek());
-		System.out.println("\n myStack.pop()  returns ");
-		System.out.println(myStack.pop());
+//		System.out.println("\n myStack.peek() returns ");
+//		System.out.println(myStack.peek());
+//		System.out.println("\n myStack.pop()  returns ");
+//		System.out.println(myStack.pop());
 	} // end testStackOperations
 } // end Driver
 

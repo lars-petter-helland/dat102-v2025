@@ -14,6 +14,8 @@ public class LenketStabelMain {
 	public static void main(String[] args) {
 		testStackOperations();
 		System.out.println("\n\nDone.");
+		
+		
 	} // end main
 
 	public static void testStackOperations() {
